@@ -1,0 +1,273 @@
+ :root {
+     --primari-text-color: #757575;
+     --title-text-color: #212121;
+     --background-color: #ffffff;
+     --accent-color: #2196F3;
+ }
+
+ /* глобальний брдер бокс */
+
+ html {
+     box-sizing: border-box;
+ }
+
+ *,
+ *::before,
+ *::after {
+     box-sizing: inherit;
+ }
+
+ .hero-section,
+ .what-we-do,
+ .team {
+     padding: 94px;
+ }
+
+ ul {
+     padding: 0px;
+ }
+
+ .hero-section {
+     padding: 200px;
+ }
+
+ .container {
+     width: 1200px;
+
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 0px;
+     padding-left: 15px;
+     padding-right: 15px;
+ }
+
+ .footer-container {
+     padding: 60px 15px;
+ }
+
+
+ .logo-p {
+     display: inline-flex;
+     margin-right: 93px;
+ }
+
+ .nav-list {
+     display: inline-flex;
+     margin-right: 285px;
+
+ }
+
+
+ /* .nav-list:first-child {
+     margin-right: 0px;
+ } */
+
+ .list-item {
+     margin-right: 54px;
+ }
+
+ .list-item:last-child {
+     margin-right: 0px;
+ }
+
+ .contact-nav {
+     display: inline-flex;
+ }
+
+ .contact-nav li+li {
+     margin-left: 50px;
+ }
+
+ .hero-section-title {
+     width: 696px;
+     margin-left: 252px;
+     margin-right: 252px;
+     text-align: center;
+ }
+
+ button {
+     width: 200px;
+     height: 50px;
+     margin-left: 500px;
+     margin-right: 500px;
+     border: 0px;
+     padding-left: 24px;
+     padding-right: 24px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     border-radius: 4px;
+ }
+
+ address {
+     margin-top: 20px;
+ }
+
+ .footer li {
+     margin-top: 9px;
+ }
+
+ .footer ul {
+     margin: 0px;
+ }
+
+ body {
+     color: var(--primari-text-color);
+     background-color: #ffffff;
+     font-family: roboto, sans-serif;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ ul {
+     list-style: none;
+ }
+
+ /* header */
+
+ .logo {
+     color: #000000;
+     font-family: Raleway, sans-serif;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1.2;
+     letter-spacing: 0.03em;
+     display: flexbox;
+ }
+
+ /* color */
+ .logo-span,
+ .nav-link:hover,
+ .nav-link:focus,
+ .link-item:hover,
+ .link-item:focus {
+     color: #2196F3;
+ }
+
+ .nav-link,
+ /* /header */
+ .peculiarities h4,
+ .what-we-do,
+ .team,
+ .nav-work,
+ .work h2 {
+     color: #212121;
+ }
+
+ /* header */
+ .link-item,
+ /* /header */
+ .peculiarities p,
+ .team p,
+ .work p {
+     color: #757575;
+ }
+
+ .hero-section,
+ button,
+ .footer a,
+ .footer address,
+ .nav-work:hover,
+ .nav-work:focus {
+     color: #FFFFFF;
+ }
+
+ .footer li>a {
+     color: rgba(255, 255, 255, 0.6);
+ }
+
+ /* background-color */
+ .hero-section,
+ .footer {
+     background-color: #2F303A;
+ }
+
+ .nav-work {
+     background-color: #F5F4FA;
+
+ }
+
+ .nav-work:hover,
+ .nav-work:focus,
+ button {
+     background-color: #2196F3;
+ }
+
+ /* text */
+ .nav-link,
+ .link-item {
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.1;
+     letter-spacing: 0.02em;
+ }
+
+ .hero-section-title {
+     font-weight: 900;
+     font-size: 44px;
+     line-height: 1.4;
+     letter-spacing: 0.06em;
+
+ }
+
+ button {
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 1.9;
+     letter-spacing: 0.02em;
+ }
+
+ .peculiarities h4 {
+     font-weight: 700;
+     font-size: 14px;
+     line-height: 1.1;
+     letter-spacing: 0.03em;
+ }
+
+ .peculiarities p {
+     font-weight: 400;
+     font-size: 14;
+     line-height: 1.7;
+     letter-spacing: 0.03em;
+ }
+
+ .what-we-do,
+ .team-title {
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.2;
+     letter-spacing: 0.03em;
+ }
+
+ .team h3 {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.2;
+     letter-spacing: 0.48px;
+ }
+
+ .profession {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 1.2;
+     letter-spacing: 0.48px;
+ }
+
+ address,
+ .footer li>a {
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 1.7;
+     letter-spacing: 0.42px;
+ }
+
+ /* Геометрія */
+ .filter {
+     display: inline-block;
+     border: 1px solid black;
+     border-radius: 4px;
+     padding: 6px 22px;
+     width: 73px;
+     height: 38px;
+ }
